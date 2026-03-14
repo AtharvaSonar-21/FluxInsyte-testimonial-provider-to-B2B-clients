@@ -1,17 +1,22 @@
-# FluxInsight
+# FluxInsyte — Testimonial Provider for B2B Clients
 
-FluxInsight is a testimonial collection and management platform designed for B2B businesses to gather, organize, and showcase customer testimonials efficiently.
+FluxInsyte is a modern testimonial collection and management platform built for B2B businesses to collect, verify, organize, and showcase client testimonials efficiently.
 
-## 🚀 Features
+## 🚀 Project Goal
+
+Businesses often struggle to gather authentic testimonials in a structured way. FluxInsyte solves this by providing a centralized platform where companies can request, receive, manage, and display testimonials professionally.
+
+## ✨ Features
 
 * Responsive landing page
-* Testimonial submission system
-* Client dashboard
+* Modern navigation bar
+* Testimonial submission interface
 * Provider dashboard
-* Authentication system
-* Testimonial approval workflow
+* Client dashboard
 * Search and filter testimonials
-* Mobile-friendly UI
+* Approval workflow for submitted testimonials
+* Authentication system
+* Mobile responsive UI
 
 ## 🛠 Tech Stack
 
@@ -19,10 +24,10 @@ FluxInsight is a testimonial collection and management platform designed for B2B
 * Vite
 * Tailwind CSS
 * Material Tailwind
-* Firebase (Authentication + Firestore)
 * React Router
+* Firebase (planned)
 
-## 📂 Project Structure
+## 📂 Folder Structure
 
 src/
 ├── assets/
@@ -30,20 +35,19 @@ src/
 ├── pages/
 ├── routes/
 ├── services/
-├── hooks/
 
 ## ⚙️ Installation
 
-Clone the repository:
+Clone repository:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/AtharvaSonar-21/FluxInsyte---testimonial-provider-to-B2B-clients.git
 ```
 
-Move into project folder:
+Move into folder:
 
 ```bash
-cd FluxInsyte
+cd FluxInsyte---testimonial-provider-to-B2B-clients
 ```
 
 Install dependencies:
@@ -52,7 +56,7 @@ Install dependencies:
 npm install
 ```
 
-Run development server:
+Run locally:
 
 ```bash
 npm run dev
@@ -61,16 +65,20 @@ npm run dev
 ## 📌 Current Progress
 
 * Project initialized
-* Navigation bar completed
-* Core dependencies configured
+* Navigation bar added
+* Dependency setup corrected
+* React + Vite environment stabilized
 
-## 🎯 Future Improvements
+## 🎯 Future Scope
 
-* AI-powered testimonial insights
-* Analytics dashboard
+* Firebase authentication
+* Testimonial analytics dashboard
+* AI sentiment analysis
 * Export testimonials
-* Role-based permissions
+* Role-based access control
 
 ## 👨‍💻 Author
 
 Atharva Sonar
+
+GitHub: https://github.com/AtharvaSonar-21
