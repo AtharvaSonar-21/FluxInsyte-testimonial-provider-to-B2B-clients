@@ -46,7 +46,7 @@ FluxInsyte solves this by providing a clean system where users can:
 ---
 
 ## 📂 Project Structure
-
+```
 src/
 ├── assets/
 ├── Components/
@@ -58,7 +58,7 @@ src/
 ├── Hooks/
 ├── Context/
 ├── Utils/
-
+```
 ---
 
 ## ⚙️ Installation
