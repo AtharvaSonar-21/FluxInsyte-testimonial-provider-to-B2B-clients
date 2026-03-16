@@ -148,7 +148,7 @@ export default function Navigation() {
 
           <div className="flex flex-col gap-2 pb-4">
             <Link to="/login">
-              <Button fullWidth variant="text">
+              <Button fullWidth className="bg-blue-600 text-white rounded-xl px-5 py-2 hover:bg-blue-700">
                 Log In
               </Button>
             </Link>

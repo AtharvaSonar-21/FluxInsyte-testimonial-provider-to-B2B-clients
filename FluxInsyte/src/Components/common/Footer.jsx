@@ -10,8 +10,8 @@ export default function Footer() {
           <h2 className="text-2xl font-bold">FluxInsight</h2>
 
           <p className="mt-4 text-gray-400 leading-relaxed">
-            Collect and manage client testimonials professionally.
-            Built for freelancers, students, and creators.
+            Collect, organize, and showcase client testimonials professionally.
+            Built for freelancers, startups, and B2B teams.
           </p>
         </div>
 
@@ -65,11 +65,22 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Legal */}
+        {/* Resources */}
         <div>
-          <h3 className="font-semibold text-lg mb-4">Legal</h3>
+          <h3 className="font-semibold text-lg mb-4">Resources</h3>
 
           <ul className="space-y-3 text-gray-400">
+            <li>
+              <a
+                href="https://github.com/AtharvaSonar-21/FluxInsyte-testimonial-provider-to-B2B-clients"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition"
+              >
+                GitHub Repository
+              </a>
+            </li>
+
             <li>
               <a href="#" className="hover:text-white transition">
                 Privacy Policy
@@ -90,9 +101,6 @@ export default function Footer() {
 
         <p>© 2026 FluxInsight. All rights reserved.</p>
 
-        <p className="mt-4 md:mt-0">
-          Built with React + Firebase
-        </p>
       </div>
     </footer>
   );
