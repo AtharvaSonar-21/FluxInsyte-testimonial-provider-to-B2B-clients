@@ -49,14 +49,6 @@ export default function Navigation() {
       >
         <a href="#pricing">Pricing</a>
       </Typography>
-
-      <Typography
-        as="li"
-        variant="small"
-        className="p-1 font-medium text-gray-700 hover:text-blue-600 transition-colors cursor-pointer"
-      >
-        <Link to="/about">About</Link>
-      </Typography>
     </ul>
   );
 
@@ -80,7 +72,7 @@ export default function Navigation() {
 
         {/* Desktop Buttons */}
         <div className="hidden lg:flex items-center gap-3">
-          <Link to="/login">
+          <Link to="/Login">
             <Button
               variant="text"
               size="sm"
@@ -90,7 +82,7 @@ export default function Navigation() {
             </Button>
           </Link>
 
-          <Link to="/signup">
+          <Link to="/Signup">
             <Button
               size="sm"
               className="rounded-xl bg-black text-white px-5 py-2 hover:bg-gray-900"
@@ -147,13 +139,13 @@ export default function Navigation() {
           {navList}
 
           <div className="flex flex-col gap-2 pb-4">
-            <Link to="/login">
+            <Link to="/Login">
               <Button fullWidth className="bg-blue-600 text-white rounded-xl px-5 py-2 hover:bg-blue-700">
                 Log In
               </Button>
             </Link>
 
-            <Link to="/signup">
+            <Link to="/SignUp">
               <Button fullWidth className="bg-black text-white">
                 Sign Up
               </Button>
